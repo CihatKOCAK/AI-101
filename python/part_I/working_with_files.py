@@ -1,7 +1,7 @@
 import os
 cwd = os.getcwd()
-path = os.path.join(cwd, "python", "test.txt")
-
+path = os.path.join(cwd, "python","part_I", "test.txt")
+print(path)
 #open file and write content
 try:
     with open(path, 'w') as file:
